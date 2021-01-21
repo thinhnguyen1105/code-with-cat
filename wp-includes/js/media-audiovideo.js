@@ -36,12 +36,32 @@
 /******/ 	// define getter function for harmony exports
 /******/ 	__webpack_require__.d = function(exports, name, getter) {
 /******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, {
-/******/ 				configurable: false,
-/******/ 				enumerable: true,
-/******/ 				get: getter
-/******/ 			});
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
 /******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
 /******/ 	};
 /******/
 /******/ 	// getDefaultExport function for compatibility with non-harmony modules
@@ -58,6 +78,7 @@
 /******/
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
+/******/
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
@@ -129,7 +150,7 @@ wp.media.mixin = {
 			return;
 		}
 
-		// invoke features cleanup
+		// Invoke features cleanup.
 		for ( featureIndex in t.options.features ) {
 			feature = t.options.features[featureIndex];
 			if ( t['clean' + feature] ) {
@@ -225,7 +246,7 @@ wp.media.audio = {
 	 * @since 4.2.0
 	 *
 	 * @param {string} data The text to apply the shortcode on.
-	 * @returns {wp.media} The media object.
+	 * @return {wp.media} The media object.
 	 */
 	edit : function( data ) {
 		var frame, shortcode = wp.shortcode.next( 'audio', data ).shortcode;
@@ -245,7 +266,7 @@ wp.media.audio = {
 	 * @since 4.2.0
 	 *
 	 * @param {Array} model Array with attributes for the shortcode.
-	 * @returns {wp.shortcode} The audio shortcode object.
+	 * @return {wp.shortcode} The audio shortcode object.
 	 */
 	shortcode : function( model ) {
 		var content;
@@ -300,7 +321,7 @@ wp.media.video = {
 	 * @since 4.2.0
 	 *
 	 * @param {string} data The text to apply the shortcode on.
-	 * @returns {wp.media} The media object.
+	 * @return {wp.media} The media object.
 	 */
 	edit : function( data ) {
 		var frame,
@@ -325,7 +346,7 @@ wp.media.video = {
 	 * @since 4.2.0
 	 *
 	 * @param {Array} model Array with attributes for the shortcode.
-	 * @returns {wp.shortcode} The video shortcode object.
+	 * @return {wp.shortcode} The video shortcode object.
 	 */
 	shortcode : function( model ) {
 		var content;
@@ -870,7 +891,7 @@ MediaDetails = AttachmentDisplay.extend(/** @lends wp.media.view.MediaDetails.pr
 	initialize: function() {
 		_.bindAll(this, 'success');
 		this.players = [];
-		this.listenTo( this.controller, 'close', wp.media.mixin.unsetPlayers );
+		this.listenTo( this.controller.states, 'close', wp.media.mixin.unsetPlayers );
 		this.on( 'ready', this.setPlayer );
 		this.on( 'media:setting:remove', wp.media.mixin.unsetPlayers, this );
 		this.on( 'media:setting:remove', this.render );
@@ -974,13 +995,13 @@ MediaDetails = AttachmentDisplay.extend(/** @lends wp.media.view.MediaDetails.pr
 	},
 
 	/**
-	 * @returns {media.view.MediaDetails} Returns itself to allow chaining
+	 * @return {media.view.MediaDetails} Returns itself to allow chaining.
 	 */
 	render: function() {
 		AttachmentDisplay.prototype.render.apply( this, arguments );
 
 		setTimeout( _.bind( function() {
-			this.resetFocus();
+			this.scrollToTop();
 		}, this ), 10 );
 
 		this.settings = _.defaults( {
@@ -990,7 +1011,7 @@ MediaDetails = AttachmentDisplay.extend(/** @lends wp.media.view.MediaDetails.pr
 		return this.setMedia();
 	},
 
-	resetFocus: function() {
+	scrollToTop: function() {
 		this.$( '.embed-media-settings' ).scrollTop( 0 );
 	}
 },/** @lends wp.media.view.MediaDetails */{
@@ -999,7 +1020,7 @@ MediaDetails = AttachmentDisplay.extend(/** @lends wp.media.view.MediaDetails.pr
 	 * When multiple players in the DOM contain the same src, things get weird.
 	 *
 	 * @param {HTMLElement} elem
-	 * @returns {HTMLElement}
+	 * @return {HTMLElement}
 	 */
 	prepareSrc : function( elem ) {
 		var i = MediaDetails.instances++;

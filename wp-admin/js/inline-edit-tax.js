@@ -4,7 +4,7 @@
  * @output wp-admin/js/inline-edit-tax.js
  */
 
-/* global inlineEditL10n, ajaxurl */
+/* global ajaxurl, inlineEditTax */
 
 window.wp = window.wp || {};
 
@@ -17,11 +17,9 @@ window.wp = window.wp || {};
  * @property {string} what The type property with a hash prefixed and a dash
  *                         suffixed.
  */
-var inlineEditTax;
-
 ( function( $, wp ) {
 
-inlineEditTax = {
+window.inlineEditTax = {
 
 	/**
 	 * Initializes the inline taxonomy editor by adding event handlers to be able to
@@ -31,7 +29,7 @@ inlineEditTax = {
 	 *
 	 * @this inlineEditTax
 	 * @memberof inlineEditTax
-	 * @returns {void}
+	 * @return {void}
 	 */
 	init : function() {
 		var t = this, row = $('#inline-edit');
@@ -45,12 +43,12 @@ inlineEditTax = {
 		});
 
 		/**
-		 * Cancels inline editing when pressing escape inside the inline editor.
+		 * Cancels inline editing when pressing Escape inside the inline editor.
 		 *
 		 * @param {Object} e The keyup event that has been triggered.
 		 */
 		row.keyup( function( e ) {
-			// 27 = [escape]
+			// 27 = [Escape].
 			if ( e.which === 27 ) {
 				return inlineEditTax.revert();
 			}
@@ -71,10 +69,10 @@ inlineEditTax = {
 		});
 
 		/**
-		 * Saves the inline edits when pressing enter inside the inline editor.
+		 * Saves the inline edits when pressing Enter inside the inline editor.
 		 */
 		$( 'input, select', row ).keydown( function( e ) {
-			// 13 = [enter]
+			// 13 = [Enter].
 			if ( e.which === 13 ) {
 				return inlineEditTax.save( this );
 			}
@@ -98,7 +96,7 @@ inlineEditTax = {
 	 *
 	 * @param {HTMLElement} el An element within the table row or the table row
 	 *                         itself that we want to quick edit.
-	 * @returns {void}
+	 * @return {void}
 	 */
 	toggle : function(el) {
 		var t = this;
@@ -117,7 +115,7 @@ inlineEditTax = {
 	 * @param {string|HTMLElement} id The ID of the term we want to quick edit or an
 	 *                                element within the table row or the
 	 * table row itself.
-	 * @returns {boolean} Always returns false.
+	 * @return {boolean} Always returns false.
 	 */
 	edit : function(id) {
 		var editRow, rowData, val,
@@ -164,7 +162,7 @@ inlineEditTax = {
 	 * @param {string|HTMLElement} id The ID of the term we want to quick edit or an
 	 *                                element within the table row or the
 	 * table row itself.
-	 * @returns {boolean} Always returns false.
+	 * @return {boolean} Always returns false.
 	 */
 	save : function(id) {
 		var params, fields, tax = $('input[name="taxonomy"]').val() || '';
@@ -186,7 +184,7 @@ inlineEditTax = {
 		fields = $('#edit-'+id).find(':input').serialize();
 		params = fields + '&' + $.param(params);
 
-		// Do the ajax request to save the data to the server.
+		// Do the Ajax request to save the data to the server.
 		$.post( ajaxurl, params,
 			/**
 			 * Handles the response from the server
@@ -226,7 +224,7 @@ inlineEditTax = {
 							row.find( '.editinline' )
 								.attr( 'aria-expanded', 'false' )
 								.focus();
-							wp.a11y.speak( inlineEditL10n.saved );
+							wp.a11y.speak( wp.i18n.__( 'Changes saved.' ) );
 						});
 
 					} else {
@@ -240,8 +238,8 @@ inlineEditTax = {
 					}
 				} else {
 					$errorNotice.removeClass( 'hidden' );
-					$error.html( inlineEditL10n.error );
-					wp.a11y.speak( inlineEditL10n.error );
+					$error.text( wp.i18n.__( 'Error while saving the changes.' ) );
+					wp.a11y.speak( wp.i18n.__( 'Error while saving the changes.' ) );
 				}
 			}
 		);
@@ -257,7 +255,7 @@ inlineEditTax = {
 	 *
 	 * @this inlineEditTax
 	 * @memberof inlineEditTax
-	 * @returns {void}
+	 * @return {void}
 	 */
 	revert : function() {
 		var id = $('table.widefat tr.inline-editor').attr('id');
@@ -282,7 +280,7 @@ inlineEditTax = {
 	 * @memberof inlineEditTax
 	 *
 	 * @param {HTMLElement} o An element within the table row or the table row itself.
-	 * @returns {string} The ID of the term based on the element.
+	 * @return {string} The ID of the term based on the element.
 	 */
 	getId : function(o) {
 		var id = o.tagName === 'TR' ? o.id : $(o).parents('tr').attr('id'), parts = id.split('-');
