@@ -1,0 +1,2592 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Autrics\n"
+"POT-Creation-Date: 2020-10-05 13:59+0600\n"
+"PO-Revision-Date: 2020-10-05 13:59+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "Oops... Page Not Found!"
+msgstr ""
+
+#: 404.php:25
+msgid "Try using the button below to go to main page of the site"
+msgstr ""
+
+#: 404.php:27
+msgid "Back to Home Page"
+msgstr ""
+
+#: comments.php:24
+msgid "Comments "
+msgstr ""
+
+#: comments.php:33 comments.php:63
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:66
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:39 comments.php:69
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:97
+msgid "Enter Name"
+msgstr ""
+
+#: comments.php:98
+msgid "Enter Email"
+msgstr ""
+
+#: comments.php:99
+msgid "Enter Website"
+msgstr ""
+
+#: comments.php:114
+msgid "Enter Comments"
+msgstr ""
+
+#: comments.php:127
+msgid "You must be"
+msgstr ""
+
+#: comments.php:127
+msgid "logged in"
+msgstr ""
+
+#: comments.php:127
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:132
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:132
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:132
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:137
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:138
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:139
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:140
+msgid "Post Comment"
+msgstr ""
+
+#: components/editor/elementor/controls/icon.php:1250
+#: components/editor/elementor/controls/icon.php:1252
+msgid "Select Icon"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: components/editor/elementor/elementor.php:88 components/theme/manifest.php:5
+msgid "Autrics"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:14
+msgid "Autrics about us tab"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:29
+msgid "autrics about us tab"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:35
+msgid "autrics about us tabs"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:40
+msgid "Tab items"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:48
+msgid " Tab navigation "
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:50
+msgid "History"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:56
+msgid "Nav Icon"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:64
+msgid "Content Title"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:66
+msgid " Autrics was founded in 1999 at USA "
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:68
+msgid "Help: Please Bold the text using third bracket;Ex: { Why }  choose us"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:73
+msgid "Tab Content"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:75
+msgid " Share best practices and hitech product knowledge. "
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:87
+#: components/editor/elementor/widgets/feature.php:83
+#: components/editor/elementor/widgets/intro-contact.php:78
+#: components/editor/elementor/widgets/minislider.php:81
+#: components/editor/elementor/widgets/owlslider.php:196
+#: components/editor/elementor/widgets/process.php:295
+#: components/editor/elementor/widgets/title.php:65
+msgid "Alignment"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:92
+#: components/editor/elementor/widgets/feature.php:88
+#: components/editor/elementor/widgets/intro-contact.php:83
+#: components/editor/elementor/widgets/minislider.php:86
+#: components/editor/elementor/widgets/owlslider.php:201
+#: components/editor/elementor/widgets/process.php:301
+#: components/editor/elementor/widgets/title.php:71
+msgid "Left"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:96
+#: components/editor/elementor/widgets/feature.php:92
+#: components/editor/elementor/widgets/intro-contact.php:87
+#: components/editor/elementor/widgets/minislider.php:90
+#: components/editor/elementor/widgets/owlslider.php:205
+#: components/editor/elementor/widgets/process.php:306
+#: components/editor/elementor/widgets/title.php:77
+msgid "Center"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:100
+#: components/editor/elementor/widgets/feature.php:96
+#: components/editor/elementor/widgets/intro-contact.php:91
+#: components/editor/elementor/widgets/minislider.php:94
+#: components/editor/elementor/widgets/owlslider.php:209
+#: components/editor/elementor/widgets/process.php:311
+#: components/editor/elementor/widgets/title.php:83
+msgid "Right"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:104
+#: components/editor/elementor/widgets/feature.php:100
+#: components/editor/elementor/widgets/intro-contact.php:95
+#: components/editor/elementor/widgets/minislider.php:98
+#: components/editor/elementor/widgets/owlslider.php:213
+#: components/editor/elementor/widgets/process.php:316
+#: components/editor/elementor/widgets/title.php:89
+msgid "Justified"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:122
+#: components/editor/elementor/widgets/intro-contact.php:112
+#: components/editor/elementor/widgets/latestnews.php:163
+#: components/editor/elementor/widgets/minislider.php:116
+#: components/editor/elementor/widgets/owlslider.php:228
+#: components/editor/elementor/widgets/pricing.php:181
+#: components/editor/elementor/widgets/quote.php:146
+#: components/editor/elementor/widgets/services.php:180
+msgid "Style Section"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:129
+#: components/editor/elementor/widgets/feature.php:121
+#: components/editor/elementor/widgets/latestnews.php:170
+#: components/editor/elementor/widgets/owlslider.php:259
+#: components/editor/elementor/widgets/process.php:262
+#: components/editor/elementor/widgets/quote.php:153
+#: components/editor/elementor/widgets/services.php:186
+#: components/editor/elementor/widgets/title.php:119
+msgid "Title color"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:140
+msgid "Nav color"
+msgstr ""
+
+#: components/editor/elementor/widgets/about-us-tab.php:152
+#: components/editor/elementor/widgets/feature.php:175
+#: components/editor/elementor/widgets/intro-contact.php:144
+#: components/editor/elementor/widgets/minislider.php:134
+#: components/editor/elementor/widgets/process.php:250
+msgid "Icon color"
+msgstr ""
+
+#: components/editor/elementor/widgets/call-to-action.php:19
+msgid "Call to action"
+msgstr ""
+
+#: components/editor/elementor/widgets/call-to-action.php:36
+#: components/editor/elementor/widgets/title.php:34
+msgid "Title settings"
+msgstr ""
+
+#: components/editor/elementor/widgets/call-to-action.php:43
+msgid "Action Thumbnail"
+msgstr ""
+
+#: components/editor/elementor/widgets/call-to-action.php:54
+#: components/editor/elementor/widgets/call-to-action.php:65
+msgid "Link"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:18
+msgid "Feature"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:33
+msgid "Autrics Featured Box"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:40
+#: components/editor/elementor/widgets/feature.php:114
+#: components/editor/elementor/widgets/pricing.php:102
+#: components/editor/elementor/widgets/quote.php:123
+#: components/editor/elementor/widgets/team-member.php:202
+#: components/editor/elementor/widgets/title.php:18
+#: components/editor/elementor/widgets/title.php:111
+#: components/option-types/fw-multi-inline/class-fw-option-type-fw-multi-inline.php:69
+#: components/theme/options/customizer/options-header.php:65
+msgid "Title"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:43
+#: components/editor/elementor/widgets/feature.php:44
+msgid "Expert Mechanics"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:45
+#: components/editor/elementor/widgets/owlslider.php:105
+#: components/editor/elementor/widgets/process.php:89
+#: components/editor/elementor/widgets/process.php:146
+#: components/editor/elementor/widgets/process.php:205
+#: components/editor/elementor/widgets/title.php:45
+msgid "Help: Please Bold the text using third bracket;Ex: { Why } choose us"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:50
+#: components/editor/elementor/widgets/feature.php:142
+msgid "Content"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:53
+msgid "Most of the vehicles get damaged"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:54
+msgid ""
+"Most of the vehicles get damaged just because of maintenance neglect you take"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:60
+#: components/editor/elementor/widgets/feature.php:169
+#: components/editor/elementor/widgets/intro-contact.php:69
+#: components/editor/elementor/widgets/minislider.php:72
+#: components/editor/elementor/widgets/team-member.php:219
+msgid "Icon"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:69
+#: components/theme/options/customizer/options-banner.php:106
+#: components/theme/options/customizer/options-banner.php:165
+#: components/theme/options/customizer/options-banner.php:219
+#: components/theme/options/posts/ts_service.php:73
+msgid "Image"
+msgstr ""
+
+#: components/editor/elementor/widgets/feature.php:149
+#: components/editor/elementor/widgets/process.php:275
+msgid "Content color"
+msgstr ""
+
+#: components/editor/elementor/widgets/intro-contact.php:14
+msgid "autrics Intro contact "
+msgstr ""
+
+#: components/editor/elementor/widgets/intro-contact.php:29
+msgid "autrics Intro contact"
+msgstr ""
+
+#: components/editor/elementor/widgets/intro-contact.php:36
+msgid "autrics Contact"
+msgstr ""
+
+#: components/editor/elementor/widgets/intro-contact.php:40
+msgid "Contact Details"
+msgstr ""
+
+#: components/editor/elementor/widgets/intro-contact.php:47
+msgid "Label"
+msgstr ""
+
+#: components/editor/elementor/widgets/intro-contact.php:49
+#: components/editor/elementor/widgets/team-member.php:188
+msgid "Mail"
+msgstr ""
+
+#: components/editor/elementor/widgets/intro-contact.php:56
+msgid "Value"
+msgstr ""
+
+#: components/editor/elementor/widgets/intro-contact.php:58
+msgid " yourname@mail.com "
+msgstr ""
+
+#: components/editor/elementor/widgets/intro-contact.php:120
+msgid "Label color"
+msgstr ""
+
+#: components/editor/elementor/widgets/intro-contact.php:132
+msgid "Value color"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:17
+msgid "Latest News"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:31
+msgid "Latest Post"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:38
+msgid "Post count"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:48
+#: components/editor/elementor/widgets/services.php:122
+msgid "Post order"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:52
+msgid "Desc"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:53
+msgid "Asc"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:60
+#: components/editor/elementor/widgets/services.php:75
+msgid "Category"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:72
+#: components/editor/elementor/widgets/services.php:104
+msgid "Title limit"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:82
+#: components/editor/elementor/widgets/services.php:112
+msgid "Show desc"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:84
+#: components/editor/elementor/widgets/latestnews.php:106
+#: components/editor/elementor/widgets/latestnews.php:116
+#: components/editor/elementor/widgets/latestnews.php:128
+#: components/editor/elementor/widgets/latestnews.php:140
+#: components/editor/elementor/widgets/latestnews.php:151
+#: components/editor/elementor/widgets/owlslider.php:50
+#: components/editor/elementor/widgets/owlslider.php:62
+#: components/editor/elementor/widgets/pricing.php:70
+#: components/editor/elementor/widgets/quote.php:75
+#: components/editor/elementor/widgets/services.php:114
+#: components/editor/elementor/widgets/services.php:144
+#: components/editor/elementor/widgets/services.php:156
+#: components/editor/elementor/widgets/services.php:168
+#: components/editor/elementor/widgets/team-member.php:74
+#: components/editor/elementor/widgets/title.php:54
+#: components/theme/options/customizer/options-banner.php:25
+#: components/theme/options/customizer/options-banner.php:39
+#: components/theme/options/customizer/options-banner.php:77
+#: components/theme/options/customizer/options-banner.php:91
+#: components/theme/options/customizer/options-banner.php:131
+#: components/theme/options/customizer/options-banner.php:145
+#: components/theme/options/customizer/options-banner.php:190
+#: components/theme/options/customizer/options-banner.php:204
+#: components/theme/options/customizer/options-blog.php:41
+#: components/theme/options/customizer/options-blog.php:55
+#: components/theme/options/customizer/options-blog.php:69
+#: components/theme/options/customizer/options-footer.php:88
+#: components/theme/options/customizer/options-general.php:23
+#: components/theme/options/customizer/options-general.php:43
+#: components/theme/options/customizer/options-general.php:57
+#: components/theme/options/customizer/options-header.php:158
+#: components/theme/options/customizer/options-header.php:187
+#: components/theme/options/customizer/options-header.php:202
+#: components/theme/options/customizer/options-header.php:217
+#: components/theme/options/customizer/options-style.php:32
+#: components/theme/options/posts/page.php:30
+#: components/theme/options/posts/ts_service.php:29
+#: components/theme/options/posts/ts_service.php:44
+#: components/theme/options/posts/ts_service.php:58
+msgid "Yes"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:85
+#: components/editor/elementor/widgets/latestnews.php:107
+#: components/editor/elementor/widgets/latestnews.php:117
+#: components/editor/elementor/widgets/latestnews.php:129
+#: components/editor/elementor/widgets/latestnews.php:141
+#: components/editor/elementor/widgets/latestnews.php:152
+#: components/editor/elementor/widgets/owlslider.php:51
+#: components/editor/elementor/widgets/owlslider.php:63
+#: components/editor/elementor/widgets/pricing.php:71
+#: components/editor/elementor/widgets/quote.php:76
+#: components/editor/elementor/widgets/services.php:115
+#: components/editor/elementor/widgets/services.php:145
+#: components/editor/elementor/widgets/services.php:157
+#: components/editor/elementor/widgets/services.php:169
+#: components/editor/elementor/widgets/team-member.php:75
+#: components/editor/elementor/widgets/title.php:55
+#: components/theme/options/customizer/options-banner.php:29
+#: components/theme/options/customizer/options-banner.php:43
+#: components/theme/options/customizer/options-banner.php:81
+#: components/theme/options/customizer/options-banner.php:95
+#: components/theme/options/customizer/options-banner.php:135
+#: components/theme/options/customizer/options-banner.php:149
+#: components/theme/options/customizer/options-banner.php:194
+#: components/theme/options/customizer/options-banner.php:208
+#: components/theme/options/customizer/options-blog.php:45
+#: components/theme/options/customizer/options-blog.php:59
+#: components/theme/options/customizer/options-blog.php:73
+#: components/theme/options/customizer/options-footer.php:92
+#: components/theme/options/customizer/options-general.php:27
+#: components/theme/options/customizer/options-general.php:47
+#: components/theme/options/customizer/options-general.php:61
+#: components/theme/options/customizer/options-header.php:162
+#: components/theme/options/customizer/options-header.php:191
+#: components/theme/options/customizer/options-header.php:206
+#: components/theme/options/customizer/options-header.php:221
+#: components/theme/options/customizer/options-style.php:36
+#: components/theme/options/posts/page.php:34
+#: components/theme/options/posts/ts_service.php:33
+#: components/theme/options/posts/ts_service.php:48
+#: components/theme/options/posts/ts_service.php:62
+msgid "No"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:93
+#: components/editor/elementor/widgets/services.php:133
+msgid "Description limit"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:104
+msgid "Show Date"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:114
+msgid "Show Author"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:126
+#: components/editor/elementor/widgets/services.php:154
+msgid "Show Readmore"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:138
+#: components/editor/elementor/widgets/quote.php:73
+#: components/editor/elementor/widgets/services.php:166
+msgid "Show Navigation"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:149
+msgid "Auto play"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:180
+#: components/editor/elementor/widgets/services.php:198
+msgid "Title hover"
+msgstr ""
+
+#: components/editor/elementor/widgets/latestnews.php:278
+msgid "Read More"
+msgstr ""
+
+#: components/editor/elementor/widgets/minislider.php:14
+msgid "autrics Intro Carasoul Sliders"
+msgstr ""
+
+#: components/editor/elementor/widgets/minislider.php:29
+msgid "autrics Content Slider"
+msgstr ""
+
+#: components/editor/elementor/widgets/minislider.php:36
+#: components/editor/elementor/widgets/owlslider.php:29
+#: components/editor/elementor/widgets/owlslider.php:83
+msgid "autrics Slider"
+msgstr ""
+
+#: components/editor/elementor/widgets/minislider.php:41
+msgid "tips slider"
+msgstr ""
+
+#: components/editor/elementor/widgets/minislider.php:49
+#: components/editor/elementor/widgets/owlslider.php:101
+msgid "Slider Title"
+msgstr ""
+
+#: components/editor/elementor/widgets/minislider.php:51
+msgid "{ vahicle } Tips"
+msgstr ""
+
+#: components/editor/elementor/widgets/minislider.php:53
+msgid "Help: Please Bold the text using third  bracket;Ex: { vahicle } Tips"
+msgstr ""
+
+#: components/editor/elementor/widgets/minislider.php:57
+#: components/editor/elementor/widgets/owlslider.php:109
+msgid "Slider Description "
+msgstr ""
+
+#: components/editor/elementor/widgets/minislider.php:59
+msgid ""
+"Most of the vehicles get damaged just because of maintenance neglect. If you "
+"take care of your vehicles\n"
+"                        , it will keep you safe."
+msgstr ""
+
+#: components/editor/elementor/widgets/minislider.php:122
+msgid "title color"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:14
+msgid "autrics Sliders"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:35
+msgid "Slider Style"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:39
+msgid "Style 1"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:40
+msgid "Style 2"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:48
+msgid "Show nav"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:60
+msgid "Auto slide"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:73
+msgid "Slider Speed"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:87
+msgid " Slider #1"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:94
+msgid "Slider Top title"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:96
+msgid "5 to 7 June 2019, Waterfront Hotel, London"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:103
+msgid "digital {thinkers Meet}"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:111
+msgid ""
+"How you transform your business as technology, consumer, habits industry "
+"dynamis change? Find out from those leading the charge."
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:117
+msgid "Background Image"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:124
+msgid "Slider Content Image"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:128
+msgid "Only for style 2"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:132
+#: components/editor/elementor/widgets/pricing.php:162
+msgid "Button Text"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:134
+msgid "Button "
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:139
+#: components/editor/elementor/widgets/owlslider.php:320
+msgid "Button"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:147
+msgid "Button Icon"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:166
+msgid "Slider Height"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:236
+msgid "Top title color"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:250
+#: components/editor/elementor/widgets/process.php:106
+#: components/editor/elementor/widgets/process.php:164
+#: components/editor/elementor/widgets/process.php:223
+msgid "Background"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:272
+msgid "Title Typography "
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:282
+msgid "Title highlight color"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:294
+msgid "Desc color"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:309
+msgid "Content Desc"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:334
+msgid "Normal"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:339
+msgid "Button  BG color"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:350
+#: components/editor/elementor/widgets/owlslider.php:413
+msgid "Button Text color"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:363
+msgid "Border"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:374
+msgid "Button Typography"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:383
+#: components/editor/elementor/widgets/owlslider.php:450
+msgid "Button Padding"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:397
+msgid "Hover"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:402
+msgid "Button Hover BG color"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:427
+msgid "Button Border"
+msgstr ""
+
+#: components/editor/elementor/widgets/owlslider.php:442
+msgid "Additional Style Section"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:18
+msgid "Pricing "
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:34
+msgid "Pricing Content"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:43
+msgid "Pricing Style"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:48
+msgid "Curly price"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:54
+msgid "Icon price"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:68
+msgid "Featured"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:79
+msgid "Feature tag"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:81
+msgid "Best"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:89
+msgid "Package Name"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:91
+msgid "Enter your Price Package"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:104
+msgid "List Title"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:112
+msgid "Package service list"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:117
+#: components/editor/elementor/widgets/team-member.php:232
+msgid "Title #1"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:129
+msgid "Package Price"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:131
+msgid "Enter Package Price"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:137
+msgid "Package validity"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:139
+msgid "Enter Package validity"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:140
+msgid "Per month"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:141
+msgid "Help: per year , per month or every 3 month"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:147
+msgid "Currency"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:150
+msgid "Enter Currency"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:170
+msgid "Button Link"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:188
+msgid "Text color"
+msgstr ""
+
+#: components/editor/elementor/widgets/pricing.php:205
+msgid "Background color"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:18
+msgid "Process"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:33
+#: components/editor/elementor/widgets/process.php:40
+msgid "Process Style"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:45
+msgid "Working Process"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:51
+msgid "Contact Process"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:65
+msgid "Step 1"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:74
+#: components/editor/elementor/widgets/process.php:132
+#: components/editor/elementor/widgets/process.php:191
+msgid "Icons"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:84
+#: components/editor/elementor/widgets/process.php:141
+#: components/editor/elementor/widgets/process.php:200
+msgid "Heading text"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:87
+#: components/editor/elementor/widgets/process.php:144
+#: components/editor/elementor/widgets/process.php:203
+#: components/editor/elementor/widgets/title.php:43
+msgid " { Why } choose us"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:88
+#: components/editor/elementor/widgets/process.php:145
+#: components/editor/elementor/widgets/process.php:204
+#: components/editor/elementor/widgets/title.php:44
+msgid "why choose us"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:95
+#: components/editor/elementor/widgets/process.php:152
+#: components/editor/elementor/widgets/process.php:211
+msgid "Sub Heading text"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:99
+#: components/editor/elementor/widgets/process.php:156
+#: components/editor/elementor/widgets/process.php:215
+msgid " Most of the vehicles get damage just because of maintain "
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:100
+#: components/editor/elementor/widgets/process.php:157
+#: components/editor/elementor/widgets/process.php:216
+msgid "Most of the vehicles get damage just because of maintain"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:124
+msgid "Step 2"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:183
+msgid "Step 3"
+msgstr ""
+
+#: components/editor/elementor/widgets/process.php:242
+msgid "Style"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:14
+#: components/editor/elementor/widgets/quote.php:29
+msgid "Autrics Quote Carousel"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:36
+msgid "Quote Style"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:41
+#: components/editor/elementor/widgets/services.php:43
+#: components/editor/elementor/widgets/team-member.php:42
+msgid " Style 1 "
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:47
+#: components/editor/elementor/widgets/services.php:49
+#: components/editor/elementor/widgets/services.php:56
+#: components/editor/elementor/widgets/team-member.php:50
+msgid " Style 2"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:54
+#: components/editor/elementor/widgets/team-member.php:58
+msgid " Style 3"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:61
+#: components/editor/elementor/widgets/services.php:62
+msgid " Style 4"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:83
+msgid "Count"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:91
+msgid "Quote Carousel"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:96
+#: components/editor/elementor/widgets/quote.php:125
+msgid "Quote Carousel #1"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:103
+msgid "Client Name"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:105
+msgid "Donald Drump"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:110
+msgid "Client designation"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:112
+msgid "CEO,apple"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:117
+msgid "Client Photo"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:131
+msgid "Quote Carousel Review"
+msgstr ""
+
+#: components/editor/elementor/widgets/quote.php:133
+msgid ""
+"Keep your face always toward the sunshine and shadows will fall behind you"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:17
+#: components/editor/elementor/widgets/services.php:31
+msgid "Autrics Services"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:38
+msgid "Service Style"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:86
+msgid "Single Service"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:95
+msgid "Service count"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:126
+msgid "Descending"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:127
+msgid "Ascending"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:142
+msgid "Show Icon"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:210
+msgid "Title size"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:218
+msgid "Descrition size"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:333
+#: components/editor/elementor/widgets/services.php:396
+msgid "Read more"
+msgstr ""
+
+#: components/editor/elementor/widgets/services.php:440
+msgid "More Details"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:14
+msgid "Autrics Team"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:29
+msgid "Autrics team"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:36
+msgid "Team Style"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:72
+msgid "Show Rating"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:84
+msgid "Rating"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:94
+msgid "Name"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:97
+#: components/editor/elementor/widgets/team-member.php:98
+msgid "Jhon Wick"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:105
+msgid "Designation"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:108
+#: components/editor/elementor/widgets/team-member.php:109
+msgid "Lead Painter"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:116
+msgid "Choose Image"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:129
+msgid "Experience Title"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:131
+#: components/editor/elementor/widgets/team-member.php:132
+msgid "Years of Experience"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:142
+msgid "Year of Experience"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:145
+#: components/editor/elementor/widgets/team-member.php:168
+msgid "5"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:146
+#: components/editor/elementor/widgets/team-member.php:169
+msgid "2"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:155
+msgid "Project Title"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:157
+msgid "Projects Done"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:165
+msgid "Number of Project"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:177
+msgid "Phone"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:180
+msgid "5555555-555"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:181
+msgid "99977788-2255"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:191
+#: components/editor/elementor/widgets/team-member.php:192
+msgid "robert@autrics.com"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:204
+msgid "Site Title"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:211
+msgid "Url"
+msgstr ""
+
+#: components/editor/elementor/widgets/team-member.php:227
+msgid "Social List"
+msgstr ""
+
+#: components/editor/elementor/widgets/title.php:40
+msgid "Heading  text"
+msgstr ""
+
+#: components/editor/elementor/widgets/title.php:52
+msgid "Show title border"
+msgstr ""
+
+#: components/editor/elementor/widgets/title.php:137
+msgid "Typography"
+msgstr ""
+
+#: components/option-types/fw-multi-inline/class-fw-option-type-fw-multi-inline.php:71
+msgid "select1"
+msgstr ""
+
+#: components/option-types/fw-multi-inline/class-fw-option-type-fw-multi-inline.php:72
+msgid "select2"
+msgstr ""
+
+#: components/option-types/fw-multi-inline/class-fw-option-type-fw-multi-inline.php:73
+msgid "select3"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:143
+msgid "Unknown Set"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:157
+msgid "Web Application Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:158
+msgid "Hand Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:159
+msgid "Transportation Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:160
+msgid "Gender Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:161
+msgid "File Type Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:162
+msgid "Payment Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:163
+msgid "Currency Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:164
+msgid "Text Editor Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:165
+msgid "Directional Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:166
+msgid "Video Player Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:167
+msgid "Brand Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:168
+msgid "Medical Icons"
+msgstr ""
+
+#: components/option-types/new-icon/class-fw-option-type-new-icon.php:169
+msgid "Autrics Icons"
+msgstr ""
+
+#: components/option-types/new-icon/view.php:39
+msgid "All Categories"
+msgstr ""
+
+#: components/option-types/new-icon/view.php:47
+msgid "icon search"
+msgstr ""
+
+#: components/theme/manifest.php:7
+msgid "Service WordPress Theme"
+msgstr ""
+
+#: components/theme/options/customizer.php:8
+msgid "Theme settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:9
+msgid "Banner Settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:13
+msgid "Page Banner settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:14
+msgid "Page banner settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:15
+msgid "Edit page Banner Button"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:20
+#: components/theme/options/customizer/options-banner.php:72
+#: components/theme/options/customizer/options-banner.php:126
+#: components/theme/options/customizer/options-banner.php:185
+#: components/theme/options/posts/ts_service.php:39
+msgid "Show banner?"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:21
+#: components/theme/options/customizer/options-banner.php:73
+#: components/theme/options/customizer/options-banner.php:127
+#: components/theme/options/customizer/options-banner.php:186
+#: components/theme/options/posts/ts_service.php:40
+msgid "Show or hide the banner"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:34
+#: components/theme/options/customizer/options-banner.php:86
+#: components/theme/options/customizer/options-banner.php:140
+#: components/theme/options/customizer/options-banner.php:199
+#: components/theme/options/posts/ts_service.php:53
+msgid "Show Breadcrumb?"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:35
+#: components/theme/options/customizer/options-banner.php:87
+#: components/theme/options/customizer/options-banner.php:141
+#: components/theme/options/customizer/options-banner.php:200
+#: components/theme/options/posts/ts_service.php:54
+msgid "Show or hide the Breadcrumb"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:48
+#: components/theme/options/customizer/options-banner.php:100
+#: components/theme/options/customizer/options-banner.php:159
+#: components/theme/options/customizer/options-banner.php:213
+#: components/theme/options/posts/page.php:14
+#: components/theme/options/posts/ts_service.php:67
+msgid "Banner title"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:49
+#: components/theme/options/customizer/options-banner.php:101
+msgid "Welcome Autrics"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:53
+msgid "Banner image"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:65
+msgid "Blog Banner settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:66
+msgid "Blog banner settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:67
+msgid "Edit Blog Banner Button"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:107
+msgid "Banner blog image"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:119
+msgid "Shop Banner settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:120
+msgid "Shop banner settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:121
+msgid "Edit shop Banner Button"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:154
+msgid "Product details title"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:155
+#: template-parts/banner/content-banner-shop.php:20
+msgid "Product details"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:160
+msgid "Welcome autrics shop"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:166
+msgid "Banner shop image"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:178
+msgid "Service Banner settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:179
+msgid "Service banner settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:180
+msgid "Edit Service Banner Button"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:214
+#: components/theme/options/posts/ts_service.php:68
+msgid "Welcome Autrics Service"
+msgstr ""
+
+#: components/theme/options/customizer/options-banner.php:220
+#: components/theme/options/posts/ts_service.php:74
+msgid "Banner Service image"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:8
+msgid "Blog settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:14
+msgid "Sidebar"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:15
+msgid "Description"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:16
+msgid "Help tip"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:18
+msgid "No sidebar"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:19
+msgid "Left Sidebar"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:20
+msgid "Right Sidebar"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:27
+msgid "Global blog title"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:31
+msgid "Global header background image"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:36
+#: components/theme/options/customizer/options-general.php:52
+msgid "Breadcrumb"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:37
+#: components/theme/options/customizer/options-general.php:53
+msgid "Do you want to show breadcrumb?"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:50
+msgid "Blog author"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:51
+msgid "Do you want to show blog author?"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:64
+msgid "Social share"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:65
+msgid "Do you want to show social share buttons?"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:78
+msgid "Blog Date"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:79
+msgid "Do you want to show Creative or Classic date?"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:83
+msgid "Creative"
+msgstr ""
+
+#: components/theme/options/customizer/options-blog.php:87
+msgid "Classic"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:8
+msgid "Footer settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:18
+msgid "Select Style"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:52
+msgid "Footer Background color"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:54
+msgid ""
+"You can change the footer's background color with rgba color or solid       "
+"color"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:57
+msgid "Footer Background Image"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:58
+msgid "It will be shown on footer \"background\" area."
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:64
+msgid "Footer Copyright color"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:66
+msgid ""
+"You can change the footer's background color with rgba color or solid color"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:72
+msgid "Copyright text"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:73
+msgid "This text will be shown at the footer of all pages."
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:77
+msgid "Footer Padding Top"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:78
+msgid "Use Footer Padding Top"
+msgstr ""
+
+#: components/theme/options/customizer/options-footer.php:85
+msgid "Back to top"
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:8
+msgid "General settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:11
+msgid "Main logo"
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:12
+msgid ""
+"It's the main logo, mostly it will be shown on \"dark or coloreful\" type "
+"area."
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:18
+msgid "Preloader show"
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:19
+msgid "Do you want to show preloader on your site ?"
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:31
+msgid "White logo"
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:32
+msgid "It will be shown on any \"light background\" type area."
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:38
+msgid "Sticky sidebar"
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:39
+msgid "Use sticky sidebar?"
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:66
+msgid "Breadcrumb word length"
+msgstr ""
+
+#: components/theme/options/customizer/options-general.php:67
+msgid "The length of the breadcumb text."
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:8
+msgid "Header settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:13
+#: components/theme/options/posts/page.php:38
+msgid "Header style"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:14
+#: components/theme/options/posts/page.php:39
+msgid "This is the site's main header style."
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:44
+msgid "Header TopBar settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:45
+msgid "Header topbar settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:46
+msgid "Edit header topbar"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:52
+#: components/theme/options/customizer/options-header.php:53
+msgid "Open Time"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:59
+msgid "Social links"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:60
+msgid ""
+"Add social links and it's icon class bellow. These are all fontaweseome-4.7 "
+"icons."
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:61
+msgid "Add new"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:69
+msgid "Social icon"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:73
+msgid "Social link"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:89
+#: components/theme/options/customizer/options-header.php:90
+msgid "Header Contact settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:91
+msgid "Edit header Contact"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:97
+msgid "Phone icon"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:98
+#: components/theme/options/customizer/options-header.php:123
+msgid "icon"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:102
+msgid "Phone title"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:103
+msgid "Call Us"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:107
+#: components/theme/options/customizer/options-header.php:112
+msgid "Phone number"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:108
+#: components/theme/options/customizer/options-header.php:113
+msgid "+91 458 654 528"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:117
+msgid "Phone number link"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:118
+msgid ""
+"Give contact phone number link without any spacing for example "
+"[ tel:123-456-7890 ]."
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:122
+msgid "Mail icon"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:127
+msgid "Email title"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:128
+msgid "Send us mail"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:132
+msgid "Email"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:133
+msgid "query@finances.com"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:137
+msgid "Email link"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:138
+msgid ""
+"Give contact Email link without any spacing for example [ mailto:"
+"example@domain.com]."
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:146
+#: components/theme/options/customizer/options-header.php:147
+msgid "Header Contact button settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:148
+msgid "Edit header Contact button"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:153
+msgid "Show button?"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:154
+msgid "Show or hide the header contact button"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:167
+msgid "Button title"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:168
+msgid "Contact"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:172
+msgid "Button Url"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:173
+msgid "Put the url of the button"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:182
+msgid "Sticky header show"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:183
+msgid "Do you want to show sticky in header ?"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:197
+msgid "Search button show"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:198
+msgid "Do you want to show search button in header ?"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:212
+msgid "Shopping cart show"
+msgstr ""
+
+#: components/theme/options/customizer/options-header.php:213
+msgid "Do you want to show shopping cart button in header ?"
+msgstr ""
+
+#: components/theme/options/customizer/options-shop.php:7
+msgid "Shop settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-shop.php:12
+msgid "Shop sidebar position"
+msgstr ""
+
+#: components/theme/options/customizer/options-shop.php:16
+msgid "Full width"
+msgstr ""
+
+#: components/theme/options/customizer/options-shop.php:17
+msgid "Left sidebar"
+msgstr ""
+
+#: components/theme/options/customizer/options-shop.php:18
+msgid "Right sidebar"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:7
+msgid "Style settings"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:10
+msgid "Body background"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:11
+msgid "Site's main background color."
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:15
+msgid "Primary color"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:16
+#: components/theme/options/customizer/options-style.php:22
+msgid "Site's main color."
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:21
+msgid "Secondary color"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:27
+msgid "Button shap Style"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:28
+msgid "Do you want to show button shap style in all pages ?"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:42
+msgid "Body Font"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:43
+msgid "Choose the typography for the title"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:73
+msgid "Heading H1 and H2 Fonts"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:74
+#: components/theme/options/customizer/options-style.php:93
+msgid "This is for heading google fonts"
+msgstr ""
+
+#: components/theme/options/customizer/options-style.php:92
+msgid "Heading H3 and H4 Fonts"
+msgstr ""
+
+#: components/theme/options/posts/page.php:8
+msgid "Page settings"
+msgstr ""
+
+#: components/theme/options/posts/page.php:15
+msgid "Add your Page hero title"
+msgstr ""
+
+#: components/theme/options/posts/page.php:18
+msgid " Banner image"
+msgstr ""
+
+#: components/theme/options/posts/page.php:19
+msgid "Upload a page header image"
+msgstr ""
+
+#: components/theme/options/posts/page.php:20
+msgid "This default header image will be used for all your service."
+msgstr ""
+
+#: components/theme/options/posts/page.php:25
+msgid "Override default header layout?"
+msgstr ""
+
+#: components/theme/options/posts/page.php:26
+msgid "Override customizer header layout"
+msgstr ""
+
+#: components/theme/options/posts/post.php:5
+msgid "Featured video"
+msgstr ""
+
+#: components/theme/options/posts/post.php:12
+msgid "Video URL"
+msgstr ""
+
+#: components/theme/options/posts/post.php:13
+msgid ""
+"Paste a video link from Youtube, Vimeo, Dailymotion, Facebook or Twitter it "
+"will be embedded in the post and the thumb used as the featured image of "
+"this post. \n"
+"\t\t\t\tYou need to choose \"Video Format\" as post format to use \"Featured "
+"Video\"."
+msgstr ""
+
+#: components/theme/options/posts/ts_service.php:15
+msgid "Service Icon"
+msgstr ""
+
+#: components/theme/options/posts/ts_service.php:19
+msgid "Select your service Logo"
+msgstr ""
+
+#: components/theme/options/posts/ts_service.php:24
+msgid "Banner override?"
+msgstr ""
+
+#: components/theme/options/posts/ts_service.php:25
+msgid "Override the banner"
+msgstr ""
+
+#: components/theme/options/posts/ts_service.php:86
+#: template-parts/banner/content-banner-service.php:47
+msgid "Service Details"
+msgstr ""
+
+#: components/theme/options/taxonomies/category.php:6
+#: components/theme/options/taxonomies/category.php:7
+msgid "Category icon"
+msgstr ""
+
+#: components/theme/options/taxonomies/post_tag.php:6
+msgid " icon"
+msgstr ""
+
+#: components/theme/options/taxonomies/post_tag.php:7
+msgid "Term icon"
+msgstr ""
+
+#: core/helpers/functions/template.php:23
+msgid "Previous post"
+msgstr ""
+
+#: core/helpers/functions/template.php:35
+msgid "Next post"
+msgstr ""
+
+#: core/helpers/functions/template.php:54
+msgid "Home"
+msgstr ""
+
+#: core/helpers/functions/template.php:81
+#: core/helpers/functions/template.php:85
+#: core/helpers/functions/template.php:89
+msgid "Blogs for"
+msgstr ""
+
+#: core/helpers/functions/template.php:93
+msgid "Author Blogs"
+msgstr ""
+
+#: core/helpers/functions/template.php:96
+msgid "Blogs"
+msgstr ""
+
+#: core/helpers/functions/template.php:99
+msgid "Search Result"
+msgstr ""
+
+#: core/helpers/functions/template.php:102
+msgid "404 Not Found"
+msgstr ""
+
+#: core/helpers/functions/template.php:204
+msgid "says:"
+msgstr ""
+
+#: core/helpers/functions/template.php:208
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: core/helpers/functions/template.php:215
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: core/helpers/functions/template.php:218
+msgid "(Edit)"
+msgstr ""
+
+#: core/helpers/functions/template.php:234
+msgid "More pages: "
+msgstr ""
+
+#: core/helpers/functions/template.php:240
+msgid "Next "
+msgstr ""
+
+#: core/helpers/functions/template.php:241
+msgid " Previous"
+msgstr ""
+
+#: core/hooks/blog.php:10
+msgid "read more"
+msgstr ""
+
+#: core/hooks/blog.php:35
+msgid "Search"
+msgstr ""
+
+#: core/hooks/widget-areas.php:11
+msgid "Blog widget area"
+msgstr ""
+
+#: core/hooks/widget-areas.php:13
+msgid "Appears on posts."
+msgstr ""
+
+#: core/hooks/widget-areas.php:25
+msgid "Footer widget area 1"
+msgstr ""
+
+#: core/hooks/widget-areas.php:27
+msgid "Footer About."
+msgstr ""
+
+#: core/hooks/widget-areas.php:39
+msgid "Footer widget area 2"
+msgstr ""
+
+#: core/hooks/widget-areas.php:41
+msgid "Footer area 2."
+msgstr ""
+
+#: core/hooks/widget-areas.php:53
+msgid "Footer widget area 3"
+msgstr ""
+
+#: core/hooks/widget-areas.php:55
+msgid "Footer area 3."
+msgstr ""
+
+#: core/hooks/widget-areas.php:67
+msgid "Footer widget area 4"
+msgstr ""
+
+#: core/hooks/widget-areas.php:69
+msgid "Footer area 4."
+msgstr ""
+
+#: core/hooks/widget-areas.php:80
+msgid "Woocommerce sidebar Area"
+msgstr ""
+
+#: core/hooks/widget-areas.php:82
+msgid "Appears on posts and pages."
+msgstr ""
+
+#: core/hooks/woocommerce.php:9 template-parts/headers/header-five.php:155
+#: template-parts/headers/header-one.php:202
+#: template-parts/headers/header-three.php:130
+#: template-parts/headers/header-two.php:202
+msgid "View your shopping cart"
+msgstr ""
+
+#: core/hooks/woocommerce.php:11 template-parts/headers/header-one.php:204
+#: template-parts/headers/header-three.php:132
+#: template-parts/headers/header-two.php:204
+#, php-format
+msgid "%d item"
+msgid_plural "%d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/installation-fragments/tgmpa-plugins.php:9
+msgid "Unyson"
+msgstr ""
+
+#: core/installation-fragments/tgmpa-plugins.php:14
+msgid "Elementor"
+msgstr ""
+
+#: core/installation-fragments/tgmpa-plugins.php:19
+msgid "Autrics Essentials"
+msgstr ""
+
+#: core/installation-fragments/tgmpa-plugins.php:26
+msgid " MailChimp"
+msgstr ""
+
+#: core/installation-fragments/tgmpa-plugins.php:32
+msgid " Contact form 7"
+msgstr ""
+
+#: core/installation-fragments/theme-demos.php:7
+msgid "Demo"
+msgstr ""
+
+#: core/installation-fragments/theme-demos.php:12
+msgid "Demo Classic"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/libs/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/libs/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: core/libs/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/libs/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/libs/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/libs/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/libs/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/libs/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/libs/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/libs/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/libs/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/libs/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:386
+#: core/libs/class-tgm-plugin-activation.php:827
+#: core/libs/class-tgm-plugin-activation.php:2533
+#: core/libs/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:387
+#: core/libs/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:388
+#: core/libs/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: core/libs/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/libs/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: core/libs/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:934
+#: core/libs/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:1121
+#: core/libs/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: core/libs/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: core/libs/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: core/libs/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/libs/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/libs/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/libs/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/libs/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/libs/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/libs/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/libs/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/libs/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: core/libs/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/libs/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/libs/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:3509
+#: core/libs/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:3509
+#: core/libs/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/libs/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/libs/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/libs/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/libs/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions.php:78
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:79
+msgid "Footer Menu"
+msgstr ""
+
+#: page.php:31 template-parts/blog/contents/content-single.php:45
+msgid "Edit"
+msgstr ""
+
+#: search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/banner/content-banner-shop.php:17
+#: template-parts/banner/content-banner-shop.php:27
+msgid "Shop"
+msgstr ""
+
+#: template-parts/banner/content-banner-shop.php:28
+msgid "Product Details"
+msgstr ""
+
+#: template-parts/blog/contents/content-none.php:2
+msgid "Nothing found!"
+msgstr ""
+
+#: template-parts/blog/contents/content-none.php:3
+msgid "It looks like nothing was found here. Maybe try a search?"
+msgstr ""
+
+#: template-parts/blog/contents/content-page.php:16
+#: template-parts/blog/contents/content-single.php:30
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: template-parts/blog/contents/format/standard-image.php:22
+#: template-parts/blog/contents/format/standard-quote.php:19
+#: template-parts/blog/contents/format/standard-video.php:28
+#: template-parts/blog/contents/format/standard.php:24
+msgid "Sticky"
+msgstr ""
+
+#: template-parts/blog/post-parts/part-tags.php:9
+msgid "Tags: "
+msgstr ""
+
+#: template-parts/footer/footer-style-1.php:88
+#: template-parts/footer/footer-style-2.php:107
+msgid "Back to Top"
+msgstr ""
+
+#: template-parts/headers/header-five.php:145
+#: template-parts/headers/header-four.php:98
+#: template-parts/headers/header-one.php:170
+#: template-parts/headers/header-three.php:106
+#: template-parts/headers/header-two.php:179
+msgid "Toggle navigation"
+msgstr ""
+
+#: template-parts/headers/header-one.php:194
+#: template-parts/headers/header-three.php:120
+#: template-parts/headers/header-two.php:192
+msgid "Type here and Search..."
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themeforest.net/user/tripples/portfolio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Car Repair Services and Auto Mechanic WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tripples"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themewinter.com"
+msgstr ""
